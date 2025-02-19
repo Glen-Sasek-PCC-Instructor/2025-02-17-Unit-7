@@ -1,0 +1,20 @@
+
+
+
+
+Pivot is last element
+3, 6, 1, 10, 7, 9, 5, 4, 8, 2   
+PIVOT = 2
+LEFT        PIVOT   RIGHT
+1           2       3, 6, 10, 7, 9, 5, 4 
+
+                    LEFT            PIVOT   RIGHT    
+                    3, 6, 7, 5, 4   8       10, 9   
+        L   P   R                           L   P   R
+        3   4   6, 7, 5                     -   9   10
+                L   P    R   
+                -   5    6,  7                    
+                         L   P   R
+                         6   7   -
+
+                         
